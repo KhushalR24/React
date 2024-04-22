@@ -11,12 +11,12 @@ import Github from './components/Github/Github';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App/>}>
-      <Route path='' element={<Home/>}/>
-      <Route path='about' element={<About/>}/>
-      <Route path='contact' element={<Contact/>}/>
-      <Route path='user/:userid' element={<User/>}/>
-      <Route path='github' element={<Github/>}/>
+    <Route>
+      <Route path='' element={<Home />} />
+      <Route path='about' element={<About />} />
+      <Route path='contact' element={<Contact />} />
+      <Route path='user/:userid' element={<User />} />
+      <Route path='github' element={<Github />} />
     </Route>
   )
 )
