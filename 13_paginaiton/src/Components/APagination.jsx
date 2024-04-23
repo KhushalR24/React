@@ -7,7 +7,7 @@ function APagination() {
 
     const [info, getInfo] = useState([]);
     const [Page, setPage] = useState(1);
-    const PageLength = 20;
+    const PageLength = 10;
     const lastPg = Math.ceil(info.length / PageLength);
 
     useEffect(() => {

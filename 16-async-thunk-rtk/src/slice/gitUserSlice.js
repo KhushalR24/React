@@ -9,7 +9,7 @@ export const getAllData = createAsyncThunk('gitUser', async (args, {rejectWithVa
     } catch (error) {
         return rejectWithValue("Opps! Something went wrong. Please try again later.");
     }
-   
+    
 })
 
  const gitUser = createSlice({

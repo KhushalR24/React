@@ -20,7 +20,9 @@ const UserDetails = () => {
             <div className="content">
                 <div className="admin-table">
                     <div className="admin-subtitle">List of User Details</div>
-                    <button className="btn add-btn" onClick={() => addNewUser(fakeUserData())}>Add New Users</button>
+                    <button className="btn add-btn" onClick={() => addNewUser(fakeUserData())}>
+                      Add New Users
+                    </button>
                 </div>
                 <ul>
                   <DisplayUsers />
