@@ -1,0 +1,55 @@
+.hero{
+    display: flex;
+    max-width: 1125px;
+    margin: auto;
+    height: calc(100vh - 72px);
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 108px;
+    line-height: 102px;
+}
+.hero-content p {
+    color: gray;
+    width: 404px;
+    padding-top: 51px;
+    padding-bottom: 40px;
+}
+/* button {
+    font-size: 108px;
+    line-height: 102px;
+}   */
+
+.hero-image img{
+  height: 487px;
+  width: 530px ;
+}
+
+.btn{
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.btn-1{
+    background-color: #D01C28;
+    border: none ;
+}
+ 
+.btn-2{
+     background-color: transparent;
+}
+
+.brand-logo{
+    display: flex;
+    gap: 20px;
+}
+

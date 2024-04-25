@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    height: 72px;
+}
+
+.nav-list ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-btn button{
+    font-size: 16px;
+    background-color: #D01C28;
+    color: white;
+    border: none;
+    height: 31px;
+    width: 75px;
+}
