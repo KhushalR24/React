@@ -1,35 +1,36 @@
 import React, { useContext } from 'react'
-import { useState } from 'react'
+// import { useState } from 'react'
 import { UserContext } from '../Context/UserContextProvider'
 import { PassContext } from '../Context/PassContextProvider'
 
 
 function Login() {
 
+    // const [username, setUsername] = useState('')
+    // const [password, setPassword] = useState('')
     const {user , setUser} = useContext(UserContext)
     const {pass , setPass} = useContext(PassContext)
 
-    const handleSubmit = (e) => {
+
+        const handleSubmit = (e) => {
         e.preventDefault()
         setUser({user})
         setPass({pass})
     }
 
-console.log(user, pass);
+
     return (
         <div>
             <h2>Login</h2>
             <input
                 type='text'
-                value={user}
                 onChange={(e) => {
                     setUser(e.target.value)
                 }}
                 placeholder='username' />
 
             <input
-                type='text'
-                value={pass}
+                type='password'
                 onChange={(e) => {
                     setPass(e.target.value)
                 }}
