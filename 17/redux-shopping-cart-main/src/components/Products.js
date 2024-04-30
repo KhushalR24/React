@@ -23,6 +23,7 @@ const Products = () => {
     if (status === STATUSES.ERROR) {
         return <h2>Something went wrong!</h2>;
     }
+    
     return (
         <div className="productsWrapper">
             {products.map((product) => (
